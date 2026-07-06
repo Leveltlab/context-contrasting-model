@@ -1,0 +1,697 @@
+{
+  "requested_n_samples": 300,
+  "n_samples_total": 300,
+  "transition_sampling": "data-like",
+  "transition_sample_counts": {
+    "silent_broad_FFonly": 1,
+    "silent_broad_FB_mid": 4,
+    "silent_broad_FB_strong": 8,
+    "weak_broad_FFonly": 13,
+    "mid_broad_FFonly": 29,
+    "strong_broad_FFonly": 51,
+    "weak_broad_FB_all": 8,
+    "mid_broad_FB_all": 7,
+    "strong_broad_FB_all": 18,
+    "mixed_broad_FB_all": 47,
+    "narrow_super_weak_FB_all": 33,
+    "narrow_very_weak_FB_all": 80,
+    "narrow_mid_FFonly": 1
+  },
+  "transition_weights": {
+    "silent_broad_FFonly": 0.012,
+    "silent_broad_FB_mid": 0.035,
+    "silent_broad_FB_strong": 0.028,
+    "weak_broad_FFonly": 0.06,
+    "mid_broad_FFonly": 0.18,
+    "strong_broad_FFonly": 0.38,
+    "weak_broad_FB_all": 0.08,
+    "mid_broad_FB_all": 0.11,
+    "strong_broad_FB_all": 0.11,
+    "mixed_broad_FB_all": 0.28,
+    "narrow_super_weak_FB_all": 0.22,
+    "narrow_very_weak_FB_all": 0.54,
+    "narrow_mid_FFonly": 0.01
+  },
+  "template_numbers": {
+    "1": "silent_broad_FFonly",
+    "2": "silent_broad_FB_mid",
+    "3": "silent_broad_FB_strong",
+    "4": "weak_broad_FFonly",
+    "5": "mid_broad_FFonly",
+    "6": "strong_broad_FFonly",
+    "7": "weak_broad_FB_all",
+    "8": "mid_broad_FB_all",
+    "9": "strong_broad_FB_all",
+    "10": "mixed_broad_FB_all",
+    "11": "narrow_super_weak_FB_all",
+    "12": "narrow_very_weak_FB_all",
+    "13": "narrow_mid_FFonly"
+  },
+  "highlight_requested_examples": {
+    "familiar": [
+      {
+        "number": 2,
+        "requested_sector": null,
+        "diagonal_angle": null,
+        "diagonal_token": null,
+        "magnitude_band": null
+      },
+      {
+        "number": 3,
+        "requested_sector": null,
+        "diagonal_angle": null,
+        "diagonal_token": null,
+        "magnitude_band": null
+      },
+      {
+        "number": null,
+        "requested_sector": "-NO axis",
+        "diagonal_sectors": [
+          "-NO axis",
+          "+O axis"
+        ],
+        "diagonal_angle": 2.356194490192345,
+        "diagonal_token": "-NO/+O",
+        "magnitude_band": null
+      },
+      {
+        "number": null,
+        "requested_sector": "+NO axis",
+        "diagonal_angle": null,
+        "diagonal_token": null,
+        "magnitude_band": null
+      },
+      {
+        "number": 13,
+        "requested_sector": null,
+        "diagonal_angle": null,
+        "diagonal_token": null,
+        "magnitude_band": null
+      },
+      {
+        "number": 6,
+        "requested_sector": null,
+        "diagonal_angle": null,
+        "diagonal_token": null,
+        "magnitude_band": null
+      }
+    ],
+    "novel": [
+      {
+        "number": null,
+        "requested_sector": "+NO axis",
+        "diagonal_sectors": [
+          "+NO axis",
+          "+O axis"
+        ],
+        "diagonal_angle": 0.7853981633974483,
+        "diagonal_token": "+NO/+O",
+        "magnitude_band": "medium"
+      },
+      {
+        "number": 11,
+        "requested_sector": null,
+        "diagonal_angle": null,
+        "diagonal_token": null,
+        "magnitude_band": null
+      },
+      {
+        "number": 7,
+        "requested_sector": null,
+        "diagonal_angle": null,
+        "diagonal_token": null,
+        "magnitude_band": null
+      },
+      {
+        "number": 2,
+        "requested_sector": null,
+        "diagonal_angle": null,
+        "diagonal_token": null,
+        "magnitude_band": null
+      },
+      {
+        "number": 6,
+        "requested_sector": null,
+        "diagonal_angle": null,
+        "diagonal_token": null,
+        "magnitude_band": null
+      }
+    ]
+  },
+  "highlight_example_source": "uniform_sample_first_above_or_closest",
+  "highlight_candidate_n_samples": 128,
+  "highlight_candidate_transition_sample_counts": {
+    "silent_broad_FFonly": 12,
+    "silent_broad_FB_mid": 13,
+    "silent_broad_FB_strong": 9,
+    "weak_broad_FFonly": 11,
+    "mid_broad_FFonly": 14,
+    "strong_broad_FFonly": 13,
+    "weak_broad_FB_all": 9,
+    "mid_broad_FB_all": 11,
+    "strong_broad_FB_all": 4,
+    "mixed_broad_FB_all": 8,
+    "narrow_super_weak_FB_all": 4,
+    "narrow_very_weak_FB_all": 9,
+    "narrow_mid_FFonly": 11
+  },
+  "seed": 7151,
+  "n_steps_per_phase": 400,
+  "test_trials": 5,
+  "test_condition_order": [
+    "familiar_1",
+    "familiar_2",
+    "novel"
+  ],
+  "training_trials": 7,
+  "training_stimulus_order": "randomized",
+  "training_trial_order": [
+    "familiar_2",
+    "familiar_1",
+    "familiar_2",
+    "familiar_2",
+    "familiar_2",
+    "familiar_2",
+    "familiar_1",
+    "familiar_1",
+    "familiar_1",
+    "familiar_1",
+    "familiar_2",
+    "familiar_1",
+    "familiar_1",
+    "familiar_2"
+  ],
+  "fixed_scalars": [
+    "lr_ff",
+    "lr_fb",
+    "lr_lat",
+    "lr_pv",
+    "pyc_decay",
+    "pv_decay"
+  ],
+  "sampled_init_keys": [
+    "w_ff_init",
+    "w_fb_init"
+  ],
+  "fixed_template_init_keys": [
+    "w_lat_init",
+    "w_pv_lat_init",
+    "W_pv_init"
+  ],
+  "scalar_noise_keys": [
+    "apical_gain_strength",
+    "apical_drive_threshold"
+  ],
+  "zscore_std_floor": 0.04,
+  "response_tail_fraction": 1.0,
+  "sector_threshold": 0.3,
+  "stimulus_specs": {
+    "familiar_1": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "familiar_2": [
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "novel": [
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "n_invalid_response_rows": 0,
+  "pruned_mini_variant": {
+    "description": "Mini model (only PyC plasticity) with a small width-keyed principled template set, generalized feedback, and emergent FF tuning via random per-cell permutation.",
+    "disabled_plasticity": [
+      "W_pv",
+      "w_pv_lat"
+    ],
+    "enabled_plasticity": [
+      "w_ff",
+      "w_fb",
+      "w_lat"
+    ],
+    "model": "minimal_divisive.CCNeuron",
+    "divisive_gain": 10.0,
+    "shared_learning_rates": {
+      "lr_ff": 0.00775,
+      "lr_fb": 0.000325,
+      "lr_lat": 0.015,
+      "lr_pv": 0.0
+    },
+    "base_shared_learning_rates": {
+      "lr_ff": 0.0155,
+      "lr_fb": 0.00065,
+      "lr_lat": 0.03,
+      "lr_pv": 0.0
+    },
+    "learning_rate_reference_steps": 200,
+    "soma_activation_threshold": 0.08,
+    "apical_drive_subtractive": true,
+    "pv_noise_sigma": 0.075,
+    "uniform_ff_noise": {
+      "rel": 0.28,
+      "floor": 0.016,
+      "lo": 0.0,
+      "hi": 0.35
+    },
+    "uniform_fb_noise": {
+      "rel": 0.4,
+      "floor": 0.016,
+      "lo": 0.0,
+      "hi": 0.65
+    },
+    "uniform_gain_clip": [
+      1.5,
+      6.4
+    ],
+    "uniform_drive_clip": [
+      0.0,
+      1.5
+    ],
+    "scalar_noise_keys": [
+      "apical_gain_strength",
+      "apical_drive_threshold"
+    ],
+    "width_classes": {
+      "broad": {
+        "ff_plasticity_scale": 8.0,
+        "gain": 3.8,
+        "gain_clip": [
+          1.5,
+          6.4
+        ],
+        "drive": 0.16,
+        "drive_clip": [
+          0.0,
+          1.5
+        ],
+        "baseline": 0.16
+      },
+      "narrow": {
+        "ff_plasticity_scale": 2.0,
+        "gain": 6.4,
+        "gain_clip": [
+          1.5,
+          6.4
+        ],
+        "gain_k": 9.0,
+        "drive": 1.08,
+        "drive_clip": [
+          0.0,
+          1.5
+        ],
+        "baseline": 0.1
+      }
+    },
+    "ff_strengths": {
+      "silent": {
+        "tuned": 0.01,
+        "silent": 0.01,
+        "rel": 0.28,
+        "floor": 0.016,
+        "lo": 0.0,
+        "hi": 0.35
+      },
+      "super_weak": {
+        "tuned": 0.065,
+        "silent": 0.004,
+        "rel": 0.28,
+        "floor": 0.016,
+        "lo": 0.0,
+        "hi": 0.35
+      },
+      "very_weak": {
+        "tuned": 0.08,
+        "silent": 0.005,
+        "rel": 0.28,
+        "floor": 0.016,
+        "lo": 0.0,
+        "hi": 0.35
+      },
+      "weak": {
+        "tuned": 0.105,
+        "silent": 0.006,
+        "rel": 0.28,
+        "floor": 0.016,
+        "lo": 0.0,
+        "hi": 0.35
+      },
+      "mid": {
+        "tuned": 0.145,
+        "silent": 0.006,
+        "rel": 0.28,
+        "floor": 0.016,
+        "lo": 0.0,
+        "hi": 0.35
+      },
+      "strong": {
+        "tuned": 0.19,
+        "silent": 0.008,
+        "rel": 0.28,
+        "floor": 0.016,
+        "lo": 0.0,
+        "hi": 0.35
+      }
+    },
+    "pv_strengths": {
+      "very_weak": {
+        "tuned": 0.045,
+        "silent": 0.01
+      },
+      "weak": {
+        "tuned": 0.24,
+        "silent": 0.05
+      },
+      "mid": {
+        "tuned": 0.31,
+        "silent": 0.13
+      },
+      "strong": {
+        "tuned": 0.66,
+        "silent": 0.17
+      },
+      "very_strong": {
+        "tuned": 0.88,
+        "silent": 0.28
+      }
+    },
+    "fb_levels": {
+      "none": {
+        "receives": false,
+        "center": 0.004,
+        "rel": 0.4,
+        "floor": 0.016,
+        "lo": 0.0,
+        "hi": 0.65
+      },
+      "very_weak": {
+        "receives": true,
+        "center": 0.015,
+        "rel": 0.4,
+        "floor": 0.016,
+        "lo": 0.0,
+        "hi": 0.65
+      },
+      "weak": {
+        "receives": true,
+        "center": 0.05,
+        "rel": 0.4,
+        "floor": 0.016,
+        "lo": 0.0,
+        "hi": 0.65
+      },
+      "mid": {
+        "receives": true,
+        "center": 0.075,
+        "rel": 0.4,
+        "floor": 0.016,
+        "lo": 0.0,
+        "hi": 0.65
+      },
+      "strong": {
+        "receives": true,
+        "center": 0.11,
+        "rel": 0.4,
+        "floor": 0.016,
+        "lo": 0.0,
+        "hi": 0.65
+      },
+      "very_strong": {
+        "receives": true,
+        "center": 0.3,
+        "rel": 0.4,
+        "floor": 0.016,
+        "lo": 0.0,
+        "hi": 0.65
+      }
+    },
+    "context_modes": [
+      "none",
+      "all"
+    ],
+    "broad_tuning_width": 2,
+    "pv_tuning_width": 2,
+    "canonical_broad_tuned_indices": [
+      0,
+      2
+    ],
+    "canonical_pv_tuned_indices": [
+      0,
+      1
+    ],
+    "surround_settings": {
+      "silent_broad_FFonly": {
+        "lat": 0.04,
+        "pvlat": 0.08
+      },
+      "silent_broad_FB_mid": {
+        "lat": 0.9,
+        "pvlat": 0.2
+      },
+      "silent_broad_FB_strong": {
+        "lat": 0.85,
+        "pvlat": 0.05
+      },
+      "weak_broad_FFonly": {
+        "lat": 0.035,
+        "pvlat": 0.1
+      },
+      "mid_broad_FFonly": {
+        "lat": 0.05,
+        "pvlat": 0.1
+      },
+      "strong_broad_FFonly": {
+        "lat": 0.05,
+        "pvlat": 0.1
+      },
+      "weak_broad_FB_all": {
+        "lat": 0.24,
+        "pvlat": 0.05
+      },
+      "mid_broad_FB_all": {
+        "lat": 0.24,
+        "pvlat": 0.05
+      },
+      "strong_broad_FB_all": {
+        "lat": 0.24,
+        "pvlat": 0.05
+      },
+      "mixed_broad_FB_all": {
+        "lat": 0.36,
+        "pvlat": 0.05
+      },
+      "narrow_super_weak_FB_all": {
+        "lat": 0.03,
+        "pvlat": 0.03
+      },
+      "narrow_very_weak_FB_all": {
+        "lat": 0.03,
+        "pvlat": 0.03
+      },
+      "narrow_mid_FFonly": {
+        "lat": 0.03,
+        "pvlat": 0.03
+      }
+    },
+    "templates": {
+      "silent_broad_FFonly": {
+        "width": "broad",
+        "ff": "silent",
+        "pv": "weak",
+        "fb": "none",
+        "tuning": "all",
+        "context": "none",
+        "weight": 0.012,
+        "baseline": 0.18
+      },
+      "silent_broad_FB_mid": {
+        "width": "broad",
+        "ff": "silent",
+        "pv": "very_strong",
+        "fb": "mid",
+        "tuning": "all",
+        "context": "all",
+        "weight": 0.035,
+        "drive": 0.04,
+        "gain": 2.8,
+        "baseline": 0.18
+      },
+      "silent_broad_FB_strong": {
+        "width": "broad",
+        "ff": "silent",
+        "pv": "very_strong",
+        "fb": "very_strong",
+        "tuning": "all",
+        "context": "all",
+        "weight": 0.028,
+        "drive": 0.16,
+        "gain": 2.0,
+        "baseline": 0.26
+      },
+      "weak_broad_FFonly": {
+        "width": "broad",
+        "ff": "weak",
+        "pv": "weak",
+        "fb": "none",
+        "tuning": "all",
+        "context": "none",
+        "weight": 0.06,
+        "baseline": 0.32
+      },
+      "mid_broad_FFonly": {
+        "width": "broad",
+        "ff": "mid",
+        "pv": "strong",
+        "fb": "none",
+        "tuning": "all",
+        "context": "none",
+        "weight": 0.18,
+        "baseline": 0.32
+      },
+      "strong_broad_FFonly": {
+        "width": "broad",
+        "ff": "strong",
+        "pv": "strong",
+        "fb": "none",
+        "tuning": "all",
+        "context": "none",
+        "weight": 0.38,
+        "baseline": 0.32
+      },
+      "weak_broad_FB_all": {
+        "width": "broad",
+        "ff": "mid",
+        "pv": "strong",
+        "fb": "mid",
+        "tuning": "all",
+        "context": "all",
+        "weight": 0.08,
+        "drive": 0.08,
+        "gain": 6.0,
+        "gain_clip": [
+          1.5,
+          7.5
+        ],
+        "gain_k": 7.0,
+        "baseline": 0.22
+      },
+      "mid_broad_FB_all": {
+        "width": "broad",
+        "ff": "strong",
+        "pv": "strong",
+        "fb": "mid",
+        "tuning": "all",
+        "context": "all",
+        "weight": 0.11,
+        "drive": 0.08,
+        "gain": 6.4,
+        "gain_clip": [
+          1.5,
+          8.0
+        ],
+        "gain_k": 7.0,
+        "baseline": 0.22
+      },
+      "strong_broad_FB_all": {
+        "width": "broad",
+        "ff": "strong",
+        "pv": "very_strong",
+        "fb": "mid",
+        "tuning": "all",
+        "context": "all",
+        "weight": 0.11,
+        "drive": 0.08,
+        "gain": 7.2,
+        "gain_clip": [
+          1.5,
+          9.0
+        ],
+        "baseline": 0.22
+      },
+      "mixed_broad_FB_all": {
+        "width": "broad",
+        "ff": "strong",
+        "pv": "mid",
+        "fb": "weak",
+        "tuning": "all",
+        "context": "all",
+        "weight": 0.28,
+        "drive": 0.24,
+        "gain": 7.8,
+        "gain_clip": [
+          1.5,
+          9.0
+        ],
+        "gain_k": 8.0,
+        "baseline": 0.22
+      },
+      "narrow_super_weak_FB_all": {
+        "width": "narrow",
+        "ff": "super_weak",
+        "pv": "very_weak",
+        "fb": "weak",
+        "tuning": "permuted1",
+        "context": "all",
+        "weight": 0.22,
+        "gain": 8.0,
+        "gain_clip": [
+          1.5,
+          9.5
+        ]
+      },
+      "narrow_very_weak_FB_all": {
+        "width": "narrow",
+        "ff": "weak",
+        "pv": "very_weak",
+        "fb": "weak",
+        "tuning": "permuted1",
+        "context": "all",
+        "weight": 0.54,
+        "gain": 8.4,
+        "gain_clip": [
+          1.5,
+          10.0
+        ]
+      },
+      "narrow_mid_FFonly": {
+        "width": "narrow",
+        "ff": "mid",
+        "pv": "weak",
+        "fb": "none",
+        "tuning": "permuted1",
+        "context": "none",
+        "weight": 0.01,
+        "gain": 7.5,
+        "gain_clip": [
+          1.5,
+          8.0
+        ]
+      }
+    }
+  }
+}

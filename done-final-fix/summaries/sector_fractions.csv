@@ -1,0 +1,11 @@
+RotatedSector,Count,Fraction,Mean_dNorm,Median_dNorm,ExpectedFraction,DeltaFromExpected,AboveExpected,scope,transition,image_group
++NO axis,23,0.07666666666666666,0.3850946069718945,0.3639328970508214,0.25,-0.17333333333333334,False,aggregate familiar,all,familiar
++O axis,45,0.15,0.735985666397514,0.6761943626865595,0.25,-0.1,False,aggregate familiar,all,familiar
+-NO axis,93,0.31,0.5238036663548596,0.47445185860466066,0.25,0.06,True,aggregate familiar,all,familiar
+-O axis,0,0.0,,,0.25,-0.25,False,aggregate familiar,all,familiar
+small ∆,139,0.4633333333333333,0.1534236727571578,0.12866861945842997,0.25,0.21333333333333332,True,aggregate familiar,all,familiar
++NO axis,71,0.23666666666666666,1.1171137078075128,0.84133020697831,0.25,-0.013333333333333336,False,aggregate novel,all,novel
++O axis,22,0.07333333333333333,0.4918683009517362,0.4748023122724536,0.25,-0.17666666666666667,False,aggregate novel,all,novel
+-NO axis,36,0.12,0.4770819326031548,0.45627936370430416,0.25,-0.13,False,aggregate novel,all,novel
+-O axis,0,0.0,,,0.25,-0.25,False,aggregate novel,all,novel
+small ∆,171,0.57,0.13822419218937984,0.12816517125938948,0.25,0.31999999999999995,True,aggregate novel,all,novel

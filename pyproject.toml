@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "context-contrasting-model"
+version = "0.1.0"
+description = "Standalone contextual-contrasting model-scatter simulation."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "joblib",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "seaborn",
+    "torch>=2.5,<2.6",
+    "tqdm",
+]
+
+[project.scripts]
+context-contrasting-model = "context_contrasting_model.run_model_scatter:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["context_contrasting_model*"]

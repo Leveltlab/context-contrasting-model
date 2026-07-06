@@ -3,9 +3,11 @@
 Standalone repository for the contextual-contrasting model-scatter simulation used
 for the final paper figures.
 
-The repository includes the reference output in `done-final-fix/`. A default run
+The repository includes the reference output in `model-results-paper/`. A default run
 is configured to reproduce those results while writing new artifacts to
 `outputs/`, so the reference folder is not overwritten.
+
+The Python modules live directly under `src/`.
 
 ## Setup
 
@@ -15,18 +17,18 @@ conda activate context-contrasting-model
 python -m pip install -e .
 ```
 
-## Reproduce `done-final-fix`
+## Reproduce `model-results-paper`
 
 From the repository root, run:
 
 ```bash
-python -m context_contrasting_model.run_model_scatter
+python -m src.run_model_scatter
 ```
 
 The command above is equivalent to the final run settings:
 
 ```bash
-python -m context_contrasting_model.run_model_scatter \
+python -m src.run_model_scatter \
   --n-jobs 10 \
   --plot-center-panels \
   --output-dir outputs \
@@ -58,10 +60,10 @@ The default run writes:
 - `outputs/summaries/*.csv`
 - `outputs/highlight_examples/`
 
-To compare a fresh run against the embedded reference:
+To compare a fresh run against the embedded reference results reported in the paper:
 
 ```bash
-python scripts/verify_reproduction.py
+python -m src.verify_reproduction
 ```
 
 The verifier compares CSV/JSON outputs byte-for-byte. For SVG/EPS files it

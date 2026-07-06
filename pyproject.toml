@@ -20,11 +20,11 @@ dependencies = [
 ]
 
 [project.scripts]
-context-contrasting-model = "context_contrasting_model.run_model_scatter:main"
+context-contrasting-model = "src.run_model_scatter:main"
 
 [tool.setuptools]
 include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["context_contrasting_model*"]
+include = ["src*"]

@@ -63,7 +63,7 @@ def compare(reference: Path, candidate: Path) -> list[str]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Compare a fresh model-scatter run with the embedded reference output.")
-    parser.add_argument("--reference", type=Path, default=Path("done-final-fix"))
+    parser.add_argument("--reference", type=Path, default=Path("model-results-paper"))
     parser.add_argument("--candidate", type=Path, default=Path("outputs"))
     args = parser.parse_args()
 

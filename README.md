@@ -1,71 +1,54 @@
 # context-contrasting-model
+Computational model code accompanying Seignette et al. (2026) [link to paper].
+## Summary
+Pyramidal cells (PyCs) in visual cortex change their responses with experience, but not all in the same way: after familiarization, some cells respond *less* to the images they see (-NO), some respond *more* (+NO), and some begin to respond even when the image is occluded and only its context is present (+O). 
 
-Standalone repository for the contextual-contrasting model-scatter simulation used
-for the final paper figures.
+The computational model in this repository shows that all three transitions can emerge from one small canonical circuit: a two-compartment PyC that combines feedforward input at the soma with contextual feedback at its apical dendrite, and a PV interneuron that divisively inhibits it.
 
-The repository includes the reference output in `model-results-paper/`. A default run
-is configured to reproduce those results while writing new artifacts to
-`outputs/`, so the reference folder is not overwritten.
+We propose three opposing plasticity rules acting together during familiarization: 
+- feedforward synapses depress with repeated activity, 
+- apical feedback synapses strengthen with repeated presentation of overlapping contextual inputs, 
+- and feedforward/lateral inhibition strengthens with correlated PV and PyC activity. 
 
-The Python modules live directly under `src/`.
+Which transition a cell undergoes depends on its starting synaptic balance, and the same rules reproduce the diverse set of empirically-observed transitions for both familiar and novel images.
+
+![Empirical and model transition vectors for familiar images](figures/final_layout/panel_D_familiar.png)
+
+*Change in occluded (O) vs. non-occluded (NO) response after familiarization: empirical cells (left) and the three familiar-image model transitions (right).*
+
+Model code for six mean-field models of PyC/PV transitions: familiar and novel, each with +NO, +O and -NO transitions. Every model is one YAML file in `configs/`; trial timing, counts and contextual breadth are in `configs/protocol.yaml`.
 
 ## Setup
 
 ```bash
-conda env create -f environment.yml
-conda activate context-contrasting-model
-python -m pip install -e .
+uv sync
 ```
 
-## Reproduce `model-results-paper`
+## Layout
 
-From the repository root, run:
+| Path | Purpose |
+|---|---|
+| `configs/` | One parameter set per model, plus `protocol.yaml` |
+| `src/model.py` | One PyC/PV pair: dynamics and three plastic synapses |
+| `src/simulate.py` | Naive probes, familiar training, expert probes, acute silencing |
+| `src/robustness.py` | One-at-a-time parameter and initial-weight sweeps |
+| `plotting/` | `plot.py` and `final_results.ipynb` for the final panels |
+
+## Run
+
+From the repository root:
 
 ```bash
-python -m src.run_model_scatter
+uv run python -m src.simulate      # results/model.csv, results/model_trial_responses.csv
+uv run python -m src.robustness    # results/model_robustness.csv, figures/robustness/
+uv run jupyter notebook plotting/final_results.ipynb   # figures/final_layout/
 ```
 
-The command above is equivalent to the final run settings:
-
-```bash
-python -m src.run_model_scatter \
-  --n-jobs 10 \
-  --plot-center-panels \
-  --output-dir outputs \
-  --export-panels \
-  --image-format svg \
-  --fam-examples 2 3 -NO/+O +NO 13 6 \
-  --nov-examples +NO/+Om 11 7 2 6 \
-  --n-samples 300 \
-  --n-steps-per-phase 400
-```
-
-The default run also uses `--test-trials 5`, `--training-trials 7`,
-`--training-stimulus-order randomized`, `--seed 7151`,
-`--transition-sampling data-like`, `--zscore-std-floor 0.04`,
-`--response-tail-fraction 1.0`, `--threshold 0.3`, and
-`--axis-clip-percentile 99.0`.
+Simulation defaults to 50 test trials and seeds 0–9 for every config (`--test-trials`, `--seeds`, `--jobs`). Each config/seed pair runs as its own process, and results do not depend on the worker count.
 
 ## Outputs
 
-The default run writes:
-
-- `outputs/sample_responses.csv`
-- `outputs/transition_table.csv`
-- `outputs/sampled_config_parameters.csv`
-- `outputs/sampled_configs.json`
-- `outputs/metadata.json`
-- `outputs/figures/*.svg`
-- `outputs/center_panels/*.svg`
-- `outputs/summaries/*.csv`
-- `outputs/highlight_examples/`
-
-To compare a fresh run against the embedded reference results reported in the paper:
-
-```bash
-python -m src.verify_reproduction
-```
-
-The verifier compares CSV/JSON outputs byte-for-byte. For SVG/EPS files it
-normalizes Matplotlib-generated timestamps and internal object IDs before
-comparison; the rendered plot content must still match.
+- `results/ground_truth.csv`: empirical sector membership, per-neuron traces and transition vectors (fixed input, exported from the thesis data analysis).
+- `results/model.csv`: trial-averaged traces and transition vectors per config and seed (naive, expert, FB/PV/combined silencing).
+- `results/model_trial_responses.csv`: per-trial NO/O responses.
+- `results/model_robustness.csv`: one row per sweep point (figures go to `figures/robustness/`).

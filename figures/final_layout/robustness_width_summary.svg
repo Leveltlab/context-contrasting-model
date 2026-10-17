@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="232.8465pt" height="351.995625pt" viewBox="0 0 232.8465 351.995625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-17T14:07:29.702164</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 351.995625 
+L 232.8465 351.995625 
+L 232.8465 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 68.2385 151.94 
+L 225.6465 151.94 
+L 225.6465 25.98 
+L 68.2385 25.98 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 77.420633 151.94 
+L 111.5257 151.94 
+L 111.5257 41.725 
+L 77.420633 41.725 
+z
+" clip-path="url(#p76b96c259f)" style="fill: #e68600"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 129.889967 151.94 
+L 163.995033 151.94 
+L 163.995033 41.725 
+L 129.889967 41.725 
+z
+" clip-path="url(#p76b96c259f)" style="fill: #ef202f"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 182.3593 151.94 
+L 216.464367 151.94 
+L 216.464367 49.5975 
+L 182.3593 49.5975 
+z
+" clip-path="url(#p76b96c259f)" style="fill: #3159a7"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="me680c59590" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#me680c59590" x="94.473167" y="151.94" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle; fill: #e68600" x="94.473167" y="167.46" transform="rotate(-0 94.473167 167.46)">-NO</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#me680c59590" x="146.9425" y="151.94" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle; fill: #ef202f" x="146.9425" y="167.46" transform="rotate(-0 146.9425 167.46)">+O</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#me680c59590" x="199.411833" y="151.94" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle; fill: #3159a7" x="199.411833" y="167.46" transform="rotate(-0 199.411833 167.46)">+NO</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <defs>
+       <path id="m5d652418e2" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m5d652418e2" x="68.2385" y="151.94" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="61.2385" y="156.2" transform="rotate(-0 61.2385 156.2)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m5d652418e2" x="68.2385" y="126.748" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="61.2385" y="131.008" transform="rotate(-0 61.2385 131.008)">0.2</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m5d652418e2" x="68.2385" y="101.556" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="61.2385" y="105.816" transform="rotate(-0 61.2385 105.816)">0.4</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m5d652418e2" x="68.2385" y="76.364" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="61.2385" y="80.624" transform="rotate(-0 61.2385 80.624)">0.6</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m5d652418e2" x="68.2385" y="51.172" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="61.2385" y="55.432" transform="rotate(-0 61.2385 55.432)">0.8</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m5d652418e2" x="68.2385" y="25.98" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="61.2385" y="30.24" transform="rotate(-0 61.2385 30.24)">1.0</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 18px; font-family: 'Myriad Pro'" transform="translate(19.98 129.15625) rotate(-90)">Fraction of</text>
+     <text style="font-size: 18px; font-family: 'Myriad Pro'" transform="translate(38.879438 131.71) rotate(-90)">parameters</text>
+    </g>
+   </g>
+   <g id="line2d_10">
+    <path clip-path="url(#p76b96c259f)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_11">
+    <path clip-path="url(#p76b96c259f)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_12">
+    <path clip-path="url(#p76b96c259f)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 68.2385 151.94 
+L 68.2385 25.98 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 68.2385 151.94 
+L 225.6465 151.94 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 18px; font-family: 'Myriad Pro'; text-anchor: middle" x="146.9425" y="19.98" transform="rotate(-0 146.9425 19.98)">familiar</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 68.2385 326.9 
+L 225.6465 326.9 
+L 225.6465 200.94 
+L 68.2385 200.94 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 77.420633 326.9 
+L 111.5257 326.9 
+L 111.5257 224.5575 
+L 77.420633 224.5575 
+z
+" clip-path="url(#pec9ed9268b)" style="fill: #e68600"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 129.889967 326.9 
+L 163.995033 326.9 
+L 163.995033 216.685 
+L 129.889967 216.685 
+z
+" clip-path="url(#pec9ed9268b)" style="fill: #ef202f"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 182.3593 326.9 
+L 216.464367 326.9 
+L 216.464367 208.8125 
+L 182.3593 208.8125 
+z
+" clip-path="url(#pec9ed9268b)" style="fill: #3159a7"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_4">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#me680c59590" x="94.473167" y="326.9" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle; fill: #e68600" x="94.473167" y="342.42" transform="rotate(-0 94.473167 342.42)">-NO</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#me680c59590" x="146.9425" y="326.9" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle; fill: #ef202f" x="146.9425" y="342.42" transform="rotate(-0 146.9425 342.42)">+O</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#me680c59590" x="199.411833" y="326.9" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle; fill: #3159a7" x="199.411833" y="342.42" transform="rotate(-0 199.411833 342.42)">+NO</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_7">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m5d652418e2" x="68.2385" y="326.9" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="61.2385" y="331.16" transform="rotate(-0 61.2385 331.16)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m5d652418e2" x="68.2385" y="301.708" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="61.2385" y="305.968" transform="rotate(-0 61.2385 305.968)">0.2</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m5d652418e2" x="68.2385" y="276.516" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="61.2385" y="280.776" transform="rotate(-0 61.2385 280.776)">0.4</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m5d652418e2" x="68.2385" y="251.324" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="61.2385" y="255.584" transform="rotate(-0 61.2385 255.584)">0.6</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m5d652418e2" x="68.2385" y="226.132" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="61.2385" y="230.392" transform="rotate(-0 61.2385 230.392)">0.8</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m5d652418e2" x="68.2385" y="200.94" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="61.2385" y="205.2" transform="rotate(-0 61.2385 205.2)">1.0</text>
+     </g>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 18px; font-family: 'Myriad Pro'" transform="translate(19.98 304.11625) rotate(-90)">Fraction of</text>
+     <text style="font-size: 18px; font-family: 'Myriad Pro'" transform="translate(38.879438 306.67) rotate(-90)">parameters</text>
+    </g>
+   </g>
+   <g id="line2d_22">
+    <path clip-path="url(#pec9ed9268b)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_23">
+    <path clip-path="url(#pec9ed9268b)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_24">
+    <path clip-path="url(#pec9ed9268b)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: square"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 68.2385 326.9 
+L 68.2385 200.94 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 68.2385 326.9 
+L 225.6465 326.9 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 18px; font-family: 'Myriad Pro'; text-anchor: middle" x="146.9425" y="194.94" transform="rotate(-0 146.9425 194.94)">novel</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p76b96c259f">
+   <rect x="68.2385" y="25.98" width="157.408" height="125.96"/>
+  </clipPath>
+  <clipPath id="pec9ed9268b">
+   <rect x="68.2385" y="200.94" width="157.408" height="125.96"/>
+  </clipPath>
+ </defs>
+</svg>

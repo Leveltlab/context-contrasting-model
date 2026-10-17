@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="733.290312pt" height="348.619063pt" viewBox="0 0 733.290312 348.619063" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-17T19:01:06.949053</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 348.619063 
+L 733.290312 348.619063 
+L 733.290312 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 56.490313 303.18 
+L 360.853949 303.18 
+L 360.853949 25.98 
+L 56.490313 25.98 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 143.670767 178.369465 
+C 133.635387 171.019378 123.012933 169.20602 114.142879 173.328762 
+C 105.272824 177.451504 98.879369 187.173743 96.370598 200.354267 
+C 93.861827 213.534792 95.442569 229.097472 100.764686 243.614806 
+C 106.086802 258.132141 114.715764 270.418855 124.751144 277.768942 
+C 134.786525 285.119029 145.408978 286.932387 154.279032 282.809645 
+C 163.149087 278.686903 169.542542 268.964664 172.051313 255.78414 
+C 174.560085 242.603615 172.979342 227.040935 167.657226 212.523601 
+C 162.33511 198.006266 153.706147 185.719552 143.670767 178.369465 
+z
+" clip-path="url(#p3c1700f24c)" style="fill: #e68600; opacity: 0.18; stroke: #e68600; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 212.228743 101.818529 
+C 204.993815 93.95735 197.024543 90.06366 190.076066 90.995 
+C 183.127589 91.92634 177.76722 97.60667 175.175518 106.784963 
+C 172.583815 115.963256 172.972381 127.890145 176.255637 139.938871 
+C 179.538893 151.987597 185.448777 163.174435 192.683705 171.035615 
+C 199.918633 178.896794 207.887905 182.790483 214.836381 181.859143 
+C 221.784858 180.927803 227.145227 175.247473 229.73693 166.06918 
+C 232.328632 156.890887 231.940067 144.963998 228.65681 132.915272 
+C 225.373554 120.866546 219.463671 109.679708 212.228743 101.818529 
+z
+" clip-path="url(#p3c1700f24c)" style="fill: #ef202f; opacity: 0.18; stroke: #ef202f; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 267.492465 179.301241 
+C 259.452028 178.01685 251.571153 180.847952 245.585512 187.171029 
+C 239.59987 193.494106 235.998163 202.792907 235.573624 213.019479 
+C 235.149085 223.246051 237.936377 233.565439 243.32163 241.704919 
+C 248.706883 249.844399 256.250416 255.139417 264.290853 256.423808 
+C 272.33129 257.708199 280.212165 254.877097 286.197806 248.55402 
+C 292.183448 242.230943 295.785155 232.932142 296.209694 222.70557 
+C 296.634233 212.478998 293.846941 202.159609 288.461688 194.02013 
+C 283.076435 185.88065 275.532902 180.585631 267.492465 179.301241 
+z
+" clip-path="url(#p3c1700f24c)" style="fill: #3159a7; opacity: 0.18; stroke: #3159a7; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mf8dcf2ce33" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mf8dcf2ce33" x="99.970832" y="303.18" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle" x="99.970832" y="318.7" transform="rotate(-0 99.970832 318.7)">−1.0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mf8dcf2ce33" x="154.321481" y="303.18" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle" x="154.321481" y="318.7" transform="rotate(-0 154.321481 318.7)">−0.5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mf8dcf2ce33" x="208.672131" y="303.18" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle" x="208.672131" y="318.7" transform="rotate(-0 208.672131 318.7)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mf8dcf2ce33" x="263.02278" y="303.18" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle" x="263.02278" y="318.7" transform="rotate(-0 263.02278 318.7)">0.5</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mf8dcf2ce33" x="317.373429" y="303.18" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle" x="317.373429" y="318.7" transform="rotate(-0 317.373429 318.7)">1.0</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 18px; font-family: 'Myriad Pro'; text-anchor: middle" x="208.672131" y="337.855625" transform="rotate(-0 208.672131 337.855625)">Delta NO</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6">
+      <defs>
+       <path id="m9ce5f01ab6" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m9ce5f01ab6" x="56.490313" y="281.856923" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="49.490313" y="286.116923" transform="rotate(-0 49.490313 286.116923)">−0.2</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m9ce5f01ab6" x="56.490313" y="239.210769" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="49.490313" y="243.470769" transform="rotate(-0 49.490313 243.470769)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m9ce5f01ab6" x="56.490313" y="196.564615" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="49.490313" y="200.824615" transform="rotate(-0 49.490313 200.824615)">0.2</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m9ce5f01ab6" x="56.490313" y="153.918462" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="49.490313" y="158.178462" transform="rotate(-0 49.490313 158.178462)">0.4</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m9ce5f01ab6" x="56.490313" y="111.272308" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="49.490313" y="115.532308" transform="rotate(-0 49.490313 115.532308)">0.6</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m9ce5f01ab6" x="56.490313" y="68.626154" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="49.490313" y="72.886154" transform="rotate(-0 49.490313 72.886154)">0.8</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m9ce5f01ab6" x="56.490313" y="25.98" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: end" x="49.490313" y="30.24" transform="rotate(-0 49.490313 30.24)">1.0</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 18px; font-family: 'Myriad Pro'; text-anchor: middle" x="19.98" y="164.58" transform="rotate(-90 19.98 164.58)">Delta O</text>
+    </g>
+   </g>
+   <g id="line2d_13"/>
+   <g id="line2d_14"/>
+   <g id="line2d_15"/>
+   <g id="line2d_16"/>
+   <g id="line2d_17">
+    <path d="M 56.490313 239.210769 
+L 360.853949 239.210769 
+" clip-path="url(#p3c1700f24c)" style="fill: none; stroke: #b2b2b2; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_18">
+    <path d="M 208.672131 303.18 
+L 208.672131 25.98 
+" clip-path="url(#p3c1700f24c)" style="fill: none; stroke: #b2b2b2; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 56.490313 303.18 
+L 56.490313 25.98 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 56.490313 303.18 
+L 360.853949 303.18 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 206.695165 238.914957 
+Q 171.441843 233.640031 138.952833 228.778727 
+" style="fill: none; stroke: #e68600; stroke-width: 2.5; stroke-linecap: round"/>
+    <path d="M 144.076828 232.376597 
+L 138.952833 228.778727 
+L 144.905526 226.838253 
+z
+" style="fill: #e68600; stroke: #e68600; stroke-width: 2.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 208.551295 237.212685 
+Q 205.564119 187.817954 202.745668 141.21321 
+" style="fill: none; stroke: #ef202f; stroke-width: 2.5; stroke-linecap: round"/>
+    <path d="M 200.28882 146.97202 
+L 202.745668 141.21321 
+L 205.878608 146.633975 
+z
+" style="fill: #ef202f; stroke: #ef202f; stroke-width: 2.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 210.547551 238.511062 
+Q 237.282228 228.536523 261.398147 219.539025 
+" style="fill: none; stroke: #3159a7; stroke-width: 2.5; stroke-linecap: round"/>
+    <path d="M 255.172663 218.873183 
+L 261.398147 219.539025 
+L 257.130183 224.119907 
+z
+" style="fill: #3159a7; stroke: #3159a7; stroke-width: 2.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 207.235389 237.816005 
+Q 190.193314 221.271848 175.718283 207.219735 
+" style="fill: none; stroke: #000000; stroke-width: 3.2; stroke-linecap: round"/>
+    <path d="M 178.081401 213.973673 
+L 175.718283 207.219735 
+L 182.539304 209.381603 
+z
+" style="stroke: #000000; stroke-width: 3.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 18px; font-family: 'Myriad Pro'; text-anchor: middle" x="208.672131" y="19.98" transform="rotate(-0 208.672131 19.98)">Data</text>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_19">
+     <path d="M 273.990199 36.06 
+L 281.990199 36.06 
+L 289.990199 36.06 
+" style="fill: none; stroke: #e68600; stroke-width: 1.5; stroke-linecap: square"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 8px; font-family: 'Myriad Pro'; text-anchor: start" x="296.390199" y="38.86" transform="rotate(-0 296.390199 38.86)">-NO</text>
+    </g>
+    <g id="line2d_20">
+     <path d="M 273.990199 47.32375 
+L 281.990199 47.32375 
+L 289.990199 47.32375 
+" style="fill: none; stroke: #ef202f; stroke-width: 1.5; stroke-linecap: square"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 8px; font-family: 'Myriad Pro'; text-anchor: start" x="296.390199" y="50.12375" transform="rotate(-0 296.390199 50.12375)">+O</text>
+    </g>
+    <g id="line2d_21">
+     <path d="M 273.990199 58.5875 
+L 281.990199 58.5875 
+L 289.990199 58.5875 
+" style="fill: none; stroke: #3159a7; stroke-width: 1.5; stroke-linecap: square"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 8px; font-family: 'Myriad Pro'; text-anchor: start" x="296.390199" y="61.3875" transform="rotate(-0 296.390199 61.3875)">+NO</text>
+    </g>
+    <g id="line2d_22">
+     <path d="M 273.990199 69.85125 
+L 281.990199 69.85125 
+L 289.990199 69.85125 
+" style="fill: none; stroke: #000000; stroke-width: 3.2; stroke-linecap: square"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 8px; font-family: 'Myriad Pro'; text-anchor: start" x="296.390199" y="72.65125" transform="rotate(-0 296.390199 72.65125)">Overall transition</text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_12">
+    <path d="M 421.726676 303.18 
+L 726.090312 303.18 
+L 726.090312 25.98 
+L 421.726676 25.98 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 472.859728 210.429154 
+C 469.957579 207.613293 466.783154 206.462044 464.035585 207.228958 
+C 461.288015 207.995872 459.191626 210.618333 458.208125 214.518775 
+C 457.224623 218.419217 457.434307 223.279185 458.790995 228.028329 
+C 460.147684 232.777472 462.54061 237.028044 465.442759 239.843906 
+C 468.344908 242.659767 471.519333 243.811015 474.266903 243.044102 
+C 477.014472 242.277188 479.110861 239.654726 480.094362 235.754285 
+C 481.077864 231.853843 480.86818 226.993875 479.511492 222.244731 
+C 478.154803 217.495588 475.761877 213.245016 472.859728 210.429154 
+z
+" clip-path="url(#p895ade3364)" style="fill: #e68600; opacity: 0.18; stroke: #e68600; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 564.215699 136.397777 
+C 562.122753 132.692614 559.525792 130.41995 556.996765 130.080315 
+C 554.467738 129.740679 552.213129 131.361801 550.729491 134.586647 
+C 549.245852 137.811494 548.654316 142.376769 549.08516 147.277026 
+C 549.516005 152.177283 550.934055 157.012436 553.027 160.717599 
+C 555.119946 164.422762 557.716907 166.695426 560.245934 167.035061 
+C 562.774961 167.374697 565.02957 165.753575 566.513208 162.528729 
+C 567.996847 159.303883 568.588384 154.738607 568.157539 149.83835 
+C 567.726694 144.938093 566.308644 140.10294 564.215699 136.397777 
+z
+" clip-path="url(#p895ade3364)" style="fill: #ef202f; opacity: 0.18; stroke: #ef202f; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 622.81564 213.7314 
+C 620.875288 209.929456 618.418177 207.453105 615.985456 206.847735 
+C 613.552736 206.242364 611.343027 207.5574 609.842993 210.503221 
+C 608.342959 213.449041 607.675071 217.785133 607.986422 222.556523 
+C 608.297774 227.327913 609.562946 232.145038 611.503298 235.946981 
+C 613.443651 239.748925 615.900762 242.225276 618.333483 242.830646 
+C 620.766203 243.436017 622.975912 242.120981 624.475946 239.17516 
+C 625.97598 236.22934 626.643868 231.893248 626.332516 227.121858 
+C 626.021164 222.350468 624.755992 217.533343 622.81564 213.7314 
+z
+" clip-path="url(#p895ade3364)" style="fill: #3159a7; opacity: 0.18; stroke: #3159a7; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_6">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#mf8dcf2ce33" x="465.207196" y="303.18" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle" x="465.207196" y="318.7" transform="rotate(-0 465.207196 318.7)">−1.0</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#mf8dcf2ce33" x="519.557845" y="303.18" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle" x="519.557845" y="318.7" transform="rotate(-0 519.557845 318.7)">−0.5</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#mf8dcf2ce33" x="573.908494" y="303.18" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle" x="573.908494" y="318.7" transform="rotate(-0 573.908494 318.7)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#mf8dcf2ce33" x="628.259144" y="303.18" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle" x="628.259144" y="318.7" transform="rotate(-0 628.259144 318.7)">0.5</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#mf8dcf2ce33" x="682.609793" y="303.18" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 12px; font-family: 'Myriad Pro'; text-anchor: middle" x="682.609793" y="318.7" transform="rotate(-0 682.609793 318.7)">1.0</text>
+     </g>
+    </g>
+    <g id="text_25">
+     <text style="font-size: 18px; font-family: 'Myriad Pro'; text-anchor: middle" x="573.908494" y="337.855625" transform="rotate(-0 573.908494 337.855625)">Delta NO</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_8">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m9ce5f01ab6" x="421.726676" y="281.856923" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m9ce5f01ab6" x="421.726676" y="239.210769" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m9ce5f01ab6" x="421.726676" y="196.564615" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#m9ce5f01ab6" x="421.726676" y="153.918462" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m9ce5f01ab6" x="421.726676" y="111.272308" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#m9ce5f01ab6" x="421.726676" y="68.626154" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#m9ce5f01ab6" x="421.726676" y="25.98" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_26">
+     <text style="font-size: 18px; font-family: 'Myriad Pro'; text-anchor: middle" x="410.663239" y="164.58" transform="rotate(-90 410.663239 164.58)">Delta O</text>
+    </g>
+   </g>
+   <g id="line2d_35"/>
+   <g id="line2d_36"/>
+   <g id="line2d_37"/>
+   <g id="line2d_38"/>
+   <g id="line2d_39">
+    <path d="M 421.726676 239.210769 
+L 726.090312 239.210769 
+" clip-path="url(#p895ade3364)" style="fill: none; stroke: #b2b2b2; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_40">
+    <path d="M 573.908494 303.18 
+L 573.908494 25.98 
+" clip-path="url(#p895ade3364)" style="fill: none; stroke: #b2b2b2; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 421.726676 303.18 
+L 421.726676 25.98 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 421.726676 303.18 
+L 726.090312 303.18 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 571.923196 238.944042 
+Q 521.529875 232.17365 473.906749 225.775437 
+" style="fill: none; stroke: #e68600; stroke-width: 2.5; stroke-linecap: round"/>
+    <path d="M 479.08405 229.296169 
+L 473.906749 225.775437 
+L 479.829716 223.746036 
+z
+" style="fill: #e68600; stroke: #e68600; stroke-width: 2.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 573.575861 237.238246 
+Q 566.264954 193.884419 559.41883 153.286763 
+" style="fill: none; stroke: #ef202f; stroke-width: 2.5; stroke-linecap: round"/>
+    <path d="M 557.589013 159.274398 
+L 559.41883 153.286763 
+L 563.111047 158.343198 
+z
+" style="fill: #ef202f; stroke: #ef202f; stroke-width: 2.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 575.806532 238.580083 
+Q 595.535245 232.02456 612.611473 226.350414 
+" style="fill: none; stroke: #3159a7; stroke-width: 2.5; stroke-linecap: round"/>
+    <path d="M 606.414249 225.459118 
+L 612.611473 226.350414 
+L 608.180102 230.773416 
+z
+" style="fill: #3159a7; stroke: #3159a7; stroke-width: 2.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 572.165414 238.228011 
+Q 544.220815 222.472688 519.392718 208.474467 
+" style="fill: none; stroke: #000000; stroke-width: 3.2; stroke-linecap: round"/>
+    <path d="M 523.396088 214.405152 
+L 519.392718 208.474467 
+L 526.539288 208.830181 
+z
+" style="stroke: #000000; stroke-width: 3.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 18px; font-family: 'Myriad Pro'; text-anchor: middle" x="573.908494" y="19.98" transform="rotate(-0 573.908494 19.98)">Model (Expert)</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p3c1700f24c">
+   <rect x="56.490313" y="25.98" width="304.363636" height="277.2"/>
+  </clipPath>
+  <clipPath id="p895ade3364">
+   <rect x="421.726676" y="25.98" width="304.363636" height="277.2"/>
+  </clipPath>
+ </defs>
+</svg>

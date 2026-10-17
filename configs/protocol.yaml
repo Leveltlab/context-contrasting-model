@@ -1,0 +1,7 @@
+steps_per_trial: 400
+steps_per_second: 100
+training_trials: 7
+test_trials: 20
+rng_reference_trials: 5
+training_order_seed: 2026
+signal_other_value: 0.6

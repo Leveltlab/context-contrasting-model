@@ -1,0 +1,26 @@
+id: 1
+source: familiar
+sector: +NO axis
+parameters:
+  seed: 1
+  w_ff: [0.015, 0.0015, 0.0015]
+  w_fb: [0.0125, 0.0125, 0.0125]
+  w_lat: [0.0125]
+  w_pv_lat: [0.0]
+  W_pv: [0.05, 0.05, 0.05]
+  receives_context: [true, true, true]
+  lr_ff: 5.0
+  lr_fb: 0.0003
+  lr_lat: 0.05
+  pyc_decay: 0.05
+  pv_decay: 0.5
+  apical_drive_threshold: 0.14
+  apical_gain_strength: 35.0
+  apical_gain_k: 10.0
+  apical_gain_threshold: 0.1
+  baseline_drive_sigma: 0.15
+  divisive_gain: 10.0
+  pv_noise_sigma: 0.15
+  ff_accumulator_alpha_factor: 0.05
+  ff_accumulator_power: 1.0
+  ff_accumulator_scale: 1.0

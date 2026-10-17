@@ -1,6 +1,10 @@
 # context-contrasting-model
 Computational model code accompanying Seignette et al. (2026) [link to paper].
 ## Summary
+<table>
+<tr>
+<td width="55%" valign="top">
+
 Pyramidal cells (PyCs) in visual cortex change their responses with experience, but not all in the same way: after familiarization, some cells respond *less* to the images they see (-NO), some respond *more* (+NO), and some begin to respond even when the image is occluded and only its context is present (+O). 
 
 The computational model in this repository shows that all three transitions can emerge from one small canonical circuit: a two-compartment PyC that combines feedforward input at the soma with contextual feedback at its apical dendrite, and a PV interneuron that divisively inhibits it.
@@ -11,6 +15,15 @@ We propose three opposing plasticity rules acting together during familiarizatio
 - and feedforward/lateral inhibition strengthens with correlated PV and PyC activity. 
 
 Which transition a cell undergoes depends on its starting synaptic balance, and the same rules reproduce the diverse set of empirically-observed transitions for both familiar and novel images.
+
+</td>
+<td width="45%" valign="middle">
+
+<img src="figures/model_schematic.png" alt="Model schematic" width="100%">
+
+</td>
+</tr>
+</table>
 
 ![Empirical and model transition vectors for familiar images](figures/final_layout/panel_D_familiar.png)
 

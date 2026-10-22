@@ -1,5 +1,10 @@
+
 # context-contrasting-model
-Computational model code accompanying Seignette et al. (2026) [link to paper].
+
+[![bioRxiv](https://img.shields.io/badge/bioRxiv-Preprint-B31B1B?style=flat-square)](https://doi.org/10.1101/2024.06.10.598181)
+
+Computational model code accompanying [Seignette et al. (2026)](https://doi.org/10.1101/2024.06.10.598181).
+
 ## Summary
 <table>
 <tr>

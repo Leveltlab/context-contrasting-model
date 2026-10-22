@@ -2,10 +2,12 @@
 # context-contrasting-model
 
 [![bioRxiv](https://img.shields.io/badge/bioRxiv-Preprint-B31B1B?style=flat-square)](https://doi.org/10.1101/2024.06.10.598181)
+[![DOI](https://zenodo.org/badge/1291211681.svg)](https://doi.org/10.5281/zenodo.23560489)
 
 Computational model code accompanying [Seignette et al. (2026)](https://doi.org/10.1101/2024.06.10.598181).
 
 ## Summary
+
 <table>
 <tr>
 <td width="55%" valign="top">
